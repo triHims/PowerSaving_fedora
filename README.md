@@ -1,5 +1,7 @@
 # PowerSaving_fedora_On_r558_uq or x556_uqk
 I mention all tweaks to save power.
+These apply to fedora30 linux. Other linux may also be benifitted but the solutin may not be as direct. You can try.
+After these tweaks powertop reports usage as 2.9 watts-3.1 watts.
 
 1. I use a modprobe script to modify the modules. This script disables bluetooth driver, wireless modem (i copied it from somewhere )(my pc does not has it ) and someother usb mobile broadband modems(i dont need them anyway).
 copy  r556-i915.conf to /etc/modprobe.d/
