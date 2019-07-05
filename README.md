@@ -1,4 +1,4 @@
-# PowerSaving_fedoraOn_r558_uq or x556_uqk
+# PowerSaving_fedora_On_r558_uq or x556_uqk
 I mention all tweaks to save power.
 
 1. I use a modprobe script to modify the modules. This script disables bluetooth driver, wireless modem (i copied it from somewhere )(my pc does not has it ) and someother usb mobile broadband modems(i dont need them anyway).
