@@ -5,6 +5,7 @@ After these tweaks powertop reports usage as 2.9 watts-3.1 watts.
 
 1. I use a modprobe script to modify the modules. This script disables bluetooth driver, wireless modem (i copied it from somewhere )(my pc does not has it ) and someother usb mobile broadband modems(i dont need them anyway).
 copy  r556-i915.conf to /etc/modprobe.d/
+to manually load bluetooth with you need it just type...  modprobe btusb
 
 
 2. I use a custom systemd script to run a script at every boot and after sleep,This is because the card reader of x556_uqk/r558_uq misbehaves and eats power.
