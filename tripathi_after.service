@@ -1,0 +1,14 @@
+[Unit]
+Description=Runs Some Scripts
+#After=graphical.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/scripts_t/card.sh
+
+
+[Install]
+WantedBy=graphical.target
+#WantedBy=hibernate.target
+#WantedBy=hybrid-sleep.target
