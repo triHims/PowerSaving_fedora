@@ -13,7 +13,7 @@ This script also disables the enp2s0 ethernet port. Disable it if you do not nee
 To disable it first you have to stop the automatic management of ethernet through NetworkManager. Then you can manually use it.
 Read the network manger guide on how to do it. If you fail to do it then the interface will be back up and suck power.
 To use it copy card.sh to /usr/bin/scripts_t/
-and copy x556_uqk_after.service to /etc/systemd/system/
+and copy tripathi_after.service to /etc/systemd/system/
 
 3 . I will also put my tlp config.
 To copy tlp config - 
